@@ -1,0 +1,3 @@
+<launch>
+    <node name="user_identification_server" pkg="user_identification" type="user_identification_server.py" />
+</launch>
