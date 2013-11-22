@@ -1,4 +1,5 @@
 <launch>
+<node pkg="openni_camera" type="openni_node" name="openni_node" output="screen" />
 <param name="/user_identification_server/faceengine" value="ContinuousLKTrackingEngine" />
 <param name="/user_identification_server/facefinder" value="FaceFinder1" />
 <param name="/user_identification_server/faceidentifier" value="FaceIdentifier" />
