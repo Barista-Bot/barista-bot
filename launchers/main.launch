@@ -6,4 +6,6 @@
 <param name="/user_identification_server/gui" value="true" />
 <param name="/user_identification_server/videosource" value="RosVideoSource2" />
 <include file="$(find user_identification)/launchers/main.launch"/>
+
+<include file="$(find movement)/launch/main.launch" />
 </launch>
