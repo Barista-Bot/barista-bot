@@ -1,4 +1,5 @@
 <launch>
+<include file="$(find barista_bot)/launchers/camera.launch" />
 <param name="/user_identification_server/faceengine" value="ContinuousLKTrackingEngine" />
 <param name="/user_identification_server/facefinder" value="FaceFinder1" />
 <param name="/user_identification_server/faceidentifier" value="LBPHIdentifier" />
