@@ -1,4 +1,5 @@
 <launch>
 <include file="$(find user_identification)/launchers/main_with_params.launch"/>
-<include file="$(find movement)/launch/main.launch" />
+<include file="$(find voice_control)/launch/voice_control.launch" />
+<node name="face_server" pkg="face" type="ROSFace.py" />
 </launch>
